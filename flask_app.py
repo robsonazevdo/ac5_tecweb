@@ -28,7 +28,7 @@ def contato():
     return  render_template('login.html')
 
 @app.route('/api/seus_dados', methods=['GET','POST'])
-def seus_dados():
+#def seus_dados():
 
 
 
