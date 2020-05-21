@@ -25,7 +25,7 @@ class Contato(db.Model):
 @app.route("/contato")
 @app.route('/')
 def contato():
-    return  render_template('login.html')
+    return  render_template('contato.html')
 
 
 @app.route('/seus_dados', methods=['GET','POST'])
